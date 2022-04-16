@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: ""
+baseurl: "/portfolio"
 url : "https://muddassir235.github.io/"
 
 # Blog Settings
@@ -10,8 +10,8 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Muddassir Ahmed Khan
+    description : A dynamic and focused Software Developer and Tech Lead with a proven track record in the software industry. Has 5 years of experience in the domain of AI-powered iOS and Android applications. Is currently a member of the Innovation Team at Callsign which innovates in the domains of Passive Authentication, Fraud Prevention, and Intelligence-based Identification.
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,7 +22,7 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:  muddassir.ahmed235@gmail.com
     linkedin:  # Full URL 
     github: naye0ng
     gitlab: 
