@@ -1,6 +1,6 @@
 # Site Settings
-baseurl: "/portfolio"
-url : "https://muddassir235.github.io/"
+baseurl: ""
+url : "https://muddassirahmedkhan.github.io/"
 
 # Blog Settings
 theme_settings :
