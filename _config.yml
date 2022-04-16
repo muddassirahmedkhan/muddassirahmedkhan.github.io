@@ -17,14 +17,14 @@ theme_settings :
         end : 2018-05-06
         experience : company name, title
     skills : 
-      - skill : HTML5 & CSS
+      - skill : Android & iOS
         value : 85  # Percent value
         
   # Icons
   icons :
     email:  muddassir.ahmed235@gmail.com
     linkedin:  # Full URL 
-    github: naye0ng
+    github: muddassir235
     gitlab: 
     bitbucket: 
     google_plus:
