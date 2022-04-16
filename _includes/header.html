@@ -2,9 +2,13 @@
 {% assign current = _url[-1] | split: "." %}
 <header>
   <nav>
-    <ul>
+    <ul class="headings">
       {% case current[0] %}
-      <li class="current">Home</li>
+      <a href="{{ site.url }}">
+        <li>
+          <img alt="Muddassir Ahmed Khan" class="logo" data-cms-original-src="/images/logo.svg" src="/assets/logo.svg">
+        </li>
+      </a>
       <a href="{{ site.url }}/blog">
         <li class="btn-nav">Blog</li>
       </a>
@@ -14,7 +18,7 @@
       <!-- blog -->
       {% when 'blog'%}
       <a href="{{ site.url }}">
-        <li class="btn-nav">Home</li>
+        <img alt="Muddassir Ahmed Khan" class="logo" data-cms-original-src="/images/logo.svg" src="/assets/logo.svg">
       </a>
       <li class="current">Blog</li>
       <a href="{{ site.url }}/tags">
@@ -23,7 +27,7 @@
       {% when 'tags'%}
       <!-- tags -->
       <a href="{{ site.url }}">
-        <li class="btn-nav">Home</li>
+        <img alt="Muddassir Ahmed Khan" class="logo" data-cms-original-src="/images/logo.svg" src="/assets/logo.svg">
       </a>
       <a href="{{ site.url }}/blog">
         <li class="btn-nav">Blog</li>
@@ -33,7 +37,7 @@
       {% else %}
       <!-- others -->
       <a href="{{ site.url }}">
-        <li class="current btn-nav">Home</li>
+        <img alt="Muddassir Ahmed Khan" class="logo" data-cms-original-src="/images/logo.svg" src="/assets/logo.svg">
       </a>
       <a href="{{ site.url }}/blog">
         <li class="btn-nav">Blog</li>
