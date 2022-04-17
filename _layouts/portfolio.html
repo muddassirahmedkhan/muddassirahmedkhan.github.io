@@ -30,8 +30,15 @@ layout: page
       <ul class="exper-list">
         {% for exp in  profile.experience %}
         <li class="meta">
-          <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
-          <p class="description">{{ exp.experience }}</p>
+            <ul>
+                <li class="detailitem">
+                    <img alt="Callsign Logo" class="image" data-cms-original-src="/assets/callsign_logo.svg" src="/assets/callsign_logo.svg">
+                </li>
+                <li class="detailitem">
+                    <p class="role">{{ exp.role }}</p>
+                    <p class="org_and_date">{{ exp.organization }} • {{ exp.start }} - {{ exp.end }}</p>
+                </li>
+            </ul>
         </li>
         {% endfor %}
       </ul>

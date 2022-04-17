@@ -68,29 +68,32 @@
         margin-left: 3%;
         border-left: 5px solid $theme-color;
         list-style-type: none;
-        li {
-          animation-name: fadein;
-          animation-duration: 1s;
-          animation-timing-function: ease-in-out;
-          -webkit-animation-name: fadein;
-          -webkit-animation-duration: 1s;
-          -webkit-animation-timing-function: ease-in-out;
+        li.detailitem{
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            list-style: none;
+        }
+        .image {
+            vertical-align: middle;
+            margin-right: 4.5px;
         }
         li.meta {
           position: relative;
           padding: 15px 0 15px 30px;
-          p {
+        }
+        .org_and_date {
             font-weight: 600;
             line-height: 0.8rem;
-          }
-          .date {
             font-size: 0.75rem;
             color: rgba(0, 0, 0, 0.5);
           }
-          .description {
+        .role {
+            font-weight: 600;
+            line-height: 0.8rem;
             font-size: 1rem;
-          }
         }
+
         li.meta::before {
           content: "";
           position: absolute;

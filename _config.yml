@@ -13,9 +13,11 @@ theme_settings :
     username : Muddassir Ahmed Khan
     description : A dynamic and focused Software Developer and Tech Lead with a proven track record in the software industry. Has 5 years of experience in the domain of AI-powered iOS and Android applications. Is currently a member of the Innovation Team at Callsign which innovates in the domains of Passive Authentication, Fraud Prevention, and Intelligence-based Identification.
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : April 2021
+        end : Preset
+        organization: Callsign
+        role: iOS/Android Developer
+        logoImage: assets/callsign_logo.svg
     skills : 
       - skill : Android & iOS
         value : 85  # Percent value
